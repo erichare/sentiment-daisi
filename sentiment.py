@@ -1,3 +1,4 @@
+import tensorflow as tf
 from transformers import pipeline
 
 sentiment_task = pipeline("sentiment-analysis", model="model", tokenizer="model")
