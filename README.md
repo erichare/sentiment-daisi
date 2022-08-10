@@ -23,5 +23,5 @@ sentiment_analysis.get_sentiment(text="I am so happy right now.").value
 Or we can even bulk-pass in sentences:
 
 ```python
-sentiment_analysis.get_sentiment(text=["I am so happy right now.", "But i'm a little unsure", "And i'm really really mad"]).value
+sentiment_analysis.get_sentiment(text=["I am so happy right now!", "But i'm a little unsure", "And i'm really really mad"]).value
 ```
